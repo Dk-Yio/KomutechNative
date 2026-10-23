@@ -10,7 +10,7 @@
 .\tools\build-all-source.ps1 -SkipBackup
 ```
 
-产物：`build/KomutechNative-Release-3.0.1.jar`
+产物：`build/KomutechNative-Release.jar`
 
 ## 项目结构
 
