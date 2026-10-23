@@ -1,0 +1,4 @@
+id: Komutech
+name: Komutech Dependency Stub
+version: stub
+description: Satisfies RSC addon dependency checks while KomutechNative loads real content.

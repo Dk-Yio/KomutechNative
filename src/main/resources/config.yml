@@ -1,0 +1,6 @@
+saveExample: false
+pluginUpdate: false
+repositories: []
+update:
+  auto: false
+  blocks: []

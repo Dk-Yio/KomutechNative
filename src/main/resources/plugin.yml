@@ -1,0 +1,21 @@
+name: KomutechNative
+version: Release-3.0.3
+main: tech.origintech.OriginTechPlugin
+api-version: '1.21'
+load: STARTUP
+author: Komu_A
+description: 口木科技 Native 版（纯 Java 脚本）
+loadbefore:
+  - RykenSlimefunCustomizer
+depend:
+  - Slimefun
+softdepend:
+  - RykenSlimefunCustomizer
+commands:
+  komutech:
+    description: 口木科技 Native 信息、重载与属性管理
+    usage: /komutech | /komutech reload | /komutech set|add <玩家> 灵气|属性点 <数量>
+permissions:
+  komutech.admin:
+    description: 口木科技 Native 管理权限（含 set/add）
+    default: op
